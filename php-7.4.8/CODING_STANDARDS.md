@@ -280,7 +280,7 @@ along with a brief one-line description of what the function does. It would look
 like this:
 
 ```c
-/* {{{ proto int abs(int number)
+/* {{{ proto int abs(int number)}}
    Returns the absolute value of the number */
 PHP_FUNCTION(abs)
 {
