@@ -4,91 +4,170 @@
       <meta charset="utf-8">
       <link rel="stylesheet" type="text/css" href="./bootstrap/bootstrap.min.css">
       <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
-      <title></title>
+      <!--script rel="stylesheet" type="text/javascript" src="./js/js/main.js"></script>
+      <script src="./js/js/main.js"></script-->
+      <script type="text/javascript" src="./js/js/main.js"></script>
+      <script>
+           $(document).ready(function(){
+              $('.dropdown-toggle').dropdown()
+          });
+      </script>
+      <style media="screen">
+        h1 {
+            color: #e8e8e8;
+        }
+      </style>
+  <title></title>
   </head>
   <body>
-      <h1>Here is the restaurant</h1>
-
+      <h1>Preston Hardware For Show</h1>
       <section class="o-fullwidth">
           <div class="container">
-              <div class="row" style="text-align: center">
-                  <div class="col-sm-12">
-                      <ul class="list-unstyled">
-                          <li style="display: inline-block; padding-right: 30px;">Menu</li>
-                          <li style="display: inline-block; padding-right: 30px;">Beer</li>
-                          <li style="display: inline-block; padding-right: 30px;">Liquor</li>
-                          <li style="display: inline-block; padding-right: 30px;">Location</li>
+              <div class="row" style=" background-color: #e8e8e8;">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#hardware">Hardware</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#paint">Paint</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#flooring">Flooring</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#housewares">Housewares</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#clothes">Clothes</a>
+                        </li>
                       </ul>
+                      <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn my-2 my-sm-0" style="color: darkRed; background-color: lightBlue;" type="submit">Search</button>
+                      </form>
+                    </div>
+                </nav>
+              </div>
+          </div>
+      </section>
+      <section class="o-fullwidth" style="padding-top: 20px;" id="home">
+        <div class="container">
+            <div class="row">
+                <img src="./img/hardwaretop.jpg" class="img-fluid" alt="Responsive image">
+                <div style="text-align: center; padding-top: 20px;">
+                    <p>Here at Preston Hardware For Show we like to have a little bit of everything.  Please enjoy your shoping experience and if you have any questions at all feel free to email or call.</p>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="o-fullwidth" id="hardware">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12">
+                      <h2 class="title">Hardware</h2>
+                  </div>
+                  <div class="col-sm-6">
+                      <img src="./img/hardware.jpg" class="img-fluid" alt="Responsive image">
+                      <div style="text-align: center;">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                      </div>
+                  </div>
+                  <div class="col-sm-6">
+                      <img src="./img/hardware2.jpg" class="img-fluid" alt="Responsive image">
+                      <div style="text-align: center;">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                      </div>
                   </div>
               </div>
           </div>
       </section>
-      <section class="o-fullwidth">
+      <section class="o-fullwidth" id="paint">
           <div class="container">
               <div class="row">
-                  <div class="col-sm-8">
-                      <img src="https://via.placeholder.com/800x480" alt="">
+                  <div class="col-12">
+                      <h2 class="title">Paint</h2>
                   </div>
-                  <div class="col-sm-4">
-                      <ul class="list-unstyled">
-                          <li style="padding-bottom: 10px;">
-                              <img src="https://via.placeholder.com/200x50" alt="">
-                          </li>
-                          <li style="padding-bottom: 30px;">
-                              <button style="border: 4px solid #000; border-radius: 10px;" type="button" name="button">The Best Burger ONLY<br>$4.99</button>
-                          </li>
-                          <li style="padding-bottom: 10px;">
-                              <img src="https://via.placeholder.com/200x50" alt="">
-                          </li>
-                          <li style="padding-bottom: 30px;">
-                              <button style="border: 4px solid #000; border-radius: 10px;" type="button" name="button">The Best Lobster ONLY<br>$8.99</button>
-                          </li>
-                          <li style="padding-bottom: 10px;">
-                              <img src="https://via.placeholder.com/200x50" alt="">
-                          </li>
-                          <li>
-                              <button style="border: 4px solid #000; border-radius: 10px;" type="button" name="button">The Best Crab ONLY<br>$6.99</button>
-                          </li>
-                      </ul>
+                  <div class="col-sm-6">
+                      <img src="./img/paint.jpg" class="img-fluid" alt="Responsive image">
+                      <div style="text-align: center;">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                      </div>
+                  </div>
+                  <div class="col-sm-6">
+                      <img src="./img/paint2.jpg" class="img-fluid" alt="Responsive image">
+                      <div style="text-align: center;">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                      </div>
                   </div>
               </div>
           </div>
-      </section><br>
-      <section class="o-fullwidth">
+      </section>
+      <section class="o-fullwidth" id="flooring">
           <div class="container">
               <div class="row">
-                  <ul class="list-unstyled">
-                      <li style="padding-left:10px;display:inline-block">
-                          <a href="/category/food-and-beverages">
-                              <img src="https://res.cloudinary.com/hartville-hardware/image/upload/c_scale,f_auto,h_200,q_auto,w_200/v1579114571/marketing/cat/Food-Beverage.png">
-                              <p style="text-align:center;color:#1f376d"><strong>Food &amp; Beverage</strong></p>
-                          </a>
-                      </li>
-                      <li style="padding-left:10px;display:inline-block">
-                          <a href="/category/food-and-beverages">
-                              <img src="https://res.cloudinary.com/hartville-hardware/image/upload/c_scale,f_auto,h_200,q_auto,w_200/v1579114571/marketing/cat/Food-Beverage.png">
-                              <p style="text-align:center;color:#1f376d"><strong>Food &amp; Beverage</strong></p>
-                          </a>
-                      </li>
-                      <li style="padding-left:10px;display:inline-block">
-                          <a href="/category/food-and-beverages">
-                              <img src="https://res.cloudinary.com/hartville-hardware/image/upload/c_scale,f_auto,h_200,q_auto,w_200/v1579114571/marketing/cat/Food-Beverage.png">
-                              <p style="text-align:center;color:#1f376d"><strong>Food &amp; Beverage</strong></p>
-                          </a>
-                      </li>
-                      <li style="padding-left:10px;display:inline-block">
-                          <a href="/category/food-and-beverages">
-                              <img src="https://res.cloudinary.com/hartville-hardware/image/upload/c_scale,f_auto,h_200,q_auto,w_200/v1579114571/marketing/cat/Food-Beverage.png">
-                              <p style="text-align:center;color:#1f376d"><strong>Food &amp; Beverage</strong></p>
-                          </a>
-                      </li>
-                      <li style="padding-left:10px;display:inline-block">
-                          <a href="/category/food-and-beverages">
-                              <img src="https://res.cloudinary.com/hartville-hardware/image/upload/c_scale,f_auto,h_200,q_auto,w_200/v1579114571/marketing/cat/Food-Beverage.png">
-                              <p style="text-align:center;color:#1f376d"><strong>Food &amp; Beverage</strong></p>
-                          </a>
-                      </li>
-                  </ul>
+                  <div class="col-12">
+                      <h2 class="title">Flooring</h2>
+                  </div>
+                  <div class="col-sm-6">
+                      <img src="./img/flooring.jpg" class="img-fluid" alt="Responsive image">
+                      <div style="text-align: center;">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                      </div>
+                  </div>
+                  <div class="col-sm-6">
+                      <img src="./img/flooring2.jpg" class="img-fluid" alt="Responsive image">
+                      <div style="text-align: center;">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section class="o-fullwidth" id="housewares">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12">
+                      <h2 class="title">Housewares</h2>
+                  </div>
+                  <div class="col-sm-6">
+                      <img src="./img/housewares.jpg" class="img-fluid" alt="Responsive image">
+                      <div style="text-align: center;">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                      </div>
+                  </div>
+                  <div class="col-sm-6">
+                      <img src="./img/housewares2.jpg" class="img-fluid" alt="Responsive image">
+                      <div style="text-align: center;">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section class="o-fullwidth" id="clothes">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12">
+                      <h2 class="title">Clothes</h2>
+                  </div>
+                  <div class="col-sm-6">
+                      <img src="./img/clothes.jpg" class="img-fluid too-long" alt="Responsive image">
+                      <div style="text-align: center;">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                      </div>
+                  </div>
+                  <div class="col-sm-6">
+                      <img src="./img/clothes2.jpg" class="img-fluid too-long" alt="Responsive image">
+                      <div style="text-align: center;">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                      </div>
+                  </div>
               </div>
           </div>
       </section>
