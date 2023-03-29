@@ -1,124 +1,143 @@
 * {
-  font-family: Helvetica, Arial, sans-serif;
-  background-color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #fff;
 }
 
 h1 {
-  color: darkred;
-  text-align: center;
+    color: darkred;
+    text-align: center;
 }
 
 p,
 li {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .h-button {
-  background-color: #fff;
-  border: none;
-  text-shadow: 0px  -1px 0px rgba(0,0,0,.5);
+    background-color: #fff;
+    border: none;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, .5);
 }
 
+.navbar {
+    width: 1140px;
+    background-color: #e8e8e8;
+}
 
 .navbar ul li {
-  padding-right: 15px;
-  display: inline-block;
+    padding-right: 15px;
+    display: inline-block;
 }
+
 .navbar ul li a {
-  color: #000;
+    color: #000;
 }
+
 .navbar ul li a:hover {
-  color: #8B0000;
+    color: #8B0000;
 }
 
 .nav {
-  color: #000;
-}
-.nav:hover {
-  color: darkred;
+    color: #000;
 }
 
+.nav:hover {
+    color: darkred;
+}
 
 @media (min-width: 300px) {
-  .img-size {
-    width: 300px;
-    height: 150px;
-  }
+    .img-size {
+        width: 300px;
+        height: 150px;
+    }
 }
 
 @media (min-width:750px) {
-  .img-size {
-    width: 600px;
-    height: 580px;
-  }
+    .img-size {
+        width: 600px;
+        height: 580px;
+    }
 }
 
 @media (min-width: 1200px) {
-  .img-size {
-    width: 800px;
-    height: 580px;
-  }
+    .img-size {
+        width: 800px;
+        height: 580px;
+    }
 }
 
 #navbar {
-  overflow: hidden;
-  background-color: #333;
+    overflow: hidden;
+    background-color: #333;
 }
+
 
 /* Navbar links */
+
 #navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
 }
+
 
 /* Page content */
+
 .content {
-  padding: 16px;
+    padding: 16px;
 }
+
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
+
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 60px;
+
+.sticky+.content {
+    padding-top: 60px;
 }
 
 
 /*Drop DOwn JAva*/
+
+
 /* Navbar container */
+
 .navbar {
-  overflow: hidden;
-  background-color: #e8e8e8;
-  font-family: Arial;
+    overflow: hidden;
+    background-color: #e8e8e8;
+    font-family: Arial;
 }
 
+
 /* Links inside the navbar */
+
 .navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .title {
-  color: darkRed;
+    color: darkRed;
 }
 
 section {
-  background-color: #e8e8e8;
+    background-color: #e8e8e8;
 }
